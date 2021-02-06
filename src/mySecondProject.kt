@@ -3,15 +3,15 @@ import java.util.*
 //Write a Program to check the eligibility of an individual
 
 fun main () {
-    var i: Int = 1
+    var i = 1
     do {
         print("YOUR NAME: ")
-        var myName = readLine().toString()
-        var read = Scanner(System.`in`)
+        readLine().toString()
+        val read = Scanner(System.`in`)
         print("AGE: ")
-        var myAge = read.nextInt()
+        val myAge = read.nextInt()
 
-        val n: Int = 18
+        val n = 18
         when (myAge > n) {
             true -> println("You are eligible\n")
             else

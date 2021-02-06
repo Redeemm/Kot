@@ -11,6 +11,7 @@ fun main(args: Array<String>) {
 
     var i = 1 // The number of iteration
     var k: Int // Variable to answer the question
+
     do{
         print("\n$i.\t$n * $i = ")
         k =read.nextInt()
